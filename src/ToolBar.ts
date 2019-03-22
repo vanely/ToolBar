@@ -1,0 +1,6 @@
+module toolBar {
+
+  class ToolBar {
+
+  }
+}

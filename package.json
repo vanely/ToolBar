@@ -1,0 +1,29 @@
+{
+  "name": "ToolBar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass styles/scss:styles/css",
+    "watch-scss": "sass --watch styles/scss:styles/css",
+    "watch-ts": "tsc -w",
+    "build-ts": "tsc",
+    "start": "node dist/main.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanely/ToolBar.git"
+  },
+  "keywords": [],
+  "author": "Vanely Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vanely/ToolBar/issues"
+  },
+  "homepage": "https://github.com/vanely/ToolBar#readme",
+  "devDependencies": {
+    "@types/node": "^11.11.4",
+    "ts-lint": "^4.5.1"
+  }
+}

@@ -1,0 +1,22 @@
+@import './variables';
+
+.toolbar {
+  background-color: $white;
+  height: 50px;
+  padding: 10px;
+}
+
+.toolbar-item {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background-color: $blue;
+}
+
+.active {
+  background-color: $yellow;
+}
+
+.disabled {
+  background-color: $gray;
+}
