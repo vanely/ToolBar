@@ -10,18 +10,21 @@ module toolBar {
       });
     }
 
+    //add css class
     private addClass(className: string) {
       this.__el.classList.add(className);
     }
-    
+
+    //remove css class
     private removeClass(className: string) {
       this.__el.classList.remove(className);
     }
 
+    //return false if __el has the "disabled css class"
     get enabled() {
       return !this.__el.classList.contains('disabled');
     }
-
+    
     set enabled(value: boolean) {
       let currentValue: boolean = this.enabled;
       
@@ -40,7 +43,7 @@ module toolBar {
     }
 
     set activated(value: boolean) {
-      let currentValue: boolean = this.enabled;
+      let currentValue: boolean = this.activated;
 
       if(currentValue === value || !this.enabled) {
         return;
@@ -60,6 +63,4 @@ module toolBar {
       parentElement.removeChild(this.__el);
     }
   }
-
-  //item.enable = false; (a boolean flag)
 }

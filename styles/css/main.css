@@ -1,12 +1,15 @@
 .toolbar {
   background-color: #ece9e9;
   height: 50px;
-  padding: 10px; }
+  padding: 10px; 
+}
+
   .toolbar .toolbar-item {
-    display: inline-block;
-    height: 50px;
-    width: 50px;
-    background-color: #54bcd6; }
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background-color: #54bcd6; 
+}
 
 .active {
   background-color: #d3e24d; }

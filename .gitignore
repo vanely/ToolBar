@@ -3,6 +3,7 @@
 
 # testing
 /coverage
+/.sass-cache
 
 # production
 /build
